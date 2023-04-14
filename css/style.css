@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  opacity: 0;
+  position: absolute;
+  top: -999999999px;
+}
+
+body {
+  height: 100%;
+  background-color: #404e5c;
+}
+body .container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+body .container header {
+  display: block;
+  position: relative;
+  width: 55vw;
+  height: 20vw;
+}
+body .container header h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 20vw;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  line-height: 1;
+  height: 20vw;
+  margin: 0;
+  padding: 0;
+  color: #e7e7e7;
+  z-index: 50;
+}
+body .container header span.copy {
+  font-family: "Lilita One", cursive;
+  font-size: 20vw;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  line-height: 1;
+  height: 20vw;
+  margin: 0;
+  padding: 0;
+}
+body .container header span.copy.copy-1 {
+  transform: perspective(500px) translate3d(0, 0, -15px);
+  color: #f24c00;
+  z-index: 40;
+}
+body .container header span.copy.copy-2 {
+  transform: perspective(500px) translate3d(0, 0, -30px);
+  color: #9792e3;
+  z-index: 30;
+}
+body .container header span.copy.copy-3 {
+  transform: perspective(500px) translate3d(0, 0, -45px);
+  color: #fc7a1e;
+  z-index: 20;
+}
+body .container header span.copy.copy-4 {
+  transform: perspective(500px) translate3d(0, 0, -60px);
+  color: #eda96d;
+  z-index: 10;
+}
+
+/*# sourceMappingURL=style.css.map */
